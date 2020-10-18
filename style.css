@@ -1,146 +1,158 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-:root{
-    --navbar-height:59px;
+body {
+    background-color: cornsilk;
 }
 
-.dp img{
-    height:200px;
-    width:200px;
+:root {
+  --navbar-height: 59px;
+}
+
+.dp img {
+  height: 200px;
+  width: 200px;
+
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.info {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.background {
+  background-color: rgb(240, 230, 217);
+
+  padding-bottom: 34px;
+}
+.name {
+  font-size: 35px;
+}
+.about-me {
+  font-size: 18px;
+}
+.fa {
+  font-size: 50px;
+  margin: 20px;
+  color: rgb(14, 59, 77);
+}
+.about {
+  height: 25vh;
+  display: flex;
+  padding: 25px auto;
+  margin-top: 30px;
+  justify-content: center;
+}
+.about-portion {
+  margin: 20px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+.s-para {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.l-para {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.about-image img {
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+.f-section {
     
-    border-radius:50%;
-    margin-top: 30px;;
+  display: flex;
+  height: 80px;
+  background: rgba(45, 186, 221, 0.7) url("r4.jpg");
+  position: sticky;
+  top: 0;
 }
-.info{
-    display: block;
-    margin: auto;
-    text-align: center;
-
+.nav-list {
+  display: flex;
+  font-size: 18px;
+  margin-top: 6px;
+  text-decoration: none;
 }
-.background{
-    background-color: rgb(240, 230, 217);
-    height:48vh;
+.nav-list li {
+  list-style: none;
+  padding: 25px;
+  color: white;
 }
-.name{
-    font-size: 35px;
-
+.nav-list li:hover {
+  cursor: pointer;
+  color: wheat;
 }
-.about-me{
-   font-size: 18px;
-}
-.fa{
-    font-size: 50px;
-    margin: 20px;
-    color:rgb(14, 59, 77);
-}
-.about{
-    height:20vh;
-    display: flex;
-    margin-top: 90px;
-    justify-content: center;
-    
-
-}
-.about-portion{
-    margin:20px;
-    margin-top: 35px;
-    font-size: 20px;
-}
-.s-para{
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
-.l-para{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-.about-image img{
-    align-items: center;
-    height:200px;
-    width:200px;
-    border-radius: 20px;
-}
-.f-section{
-    display: flex;
-    height:80px;
-    background:rgba(0,0,0,0.7)url('r4.jpg');
-    position: sticky;
-    top:0;
-
-}
-.nav-list{
-    display: flex;
-    font-size: 18px;
-    margin-top:6px;
+.nav-list li a{
     text-decoration: none;
+    margin-left: 34px;
+    color: white;
 }
-.nav-list li{
-    list-style: none;
-    padding:25px;
-    color:white;
+
+.nav-list li a:hover{
+    text-decoration: underline;
+    color: white;
 }
-.nav-list li:hover{
-    cursor: pointer;
-    color: wheat;
+
+
+.logo img {
+  margin-top: 5px;
+  width: 70px;
+  border-radius: 50%;
 }
-.navbar{
+.skill {
+  text-align: center;
+  padding-top: 30px;
   
 }
-.logo img{
-    margin-top: 5px;
-    width:70px;
-    border-radius: 50%;
+.s {
+  margin-top: 80px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.skill{
-    text-align: center;
+.s {
+  font-size: 25px;
+  margin: 50px;
+  padding: 20px;
 }
-.s{
-    margin-top: 80px;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.skill img {
+  border-radius: 20px;
 }
-.s{
-    font-size: 25px;
-    margin:50px;
-    padding:20px
+.contact-us {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-top: 45px;
 }
-.skill img{
-    border-radius: 20px;
+.c {
+  color: white;
 }
-.contact-us{
-    text-align: center;
-    background-color: black;
-    color:white;
-    font-size: 20px;
+.c-form {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
-.c{
-    color:white;
-    
+.form {
+  font-size: 20px;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  width: 400px;
 }
-.c-form{
-    margin:10px;
-    padding:10px;
-    text-align: center;
+.btn {
+  padding: 5px;
+  width: 100px;
+  color: black;
 }
-.form{
-    font-size: 20px;
-    margin: 10px;
-    padding:8px;
-    border-radius: 10px;
-    width:400px;
-}
-.btn{
-    padding:5px;
-    width:100px;
-    color: black;
-}
-.btn:hover{
-    color:white;
-    background-color: gray;
+.btn:hover {
+  color: white;
+  background-color: gray;
 }
