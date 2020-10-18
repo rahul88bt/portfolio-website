@@ -157,3 +157,11 @@ body {
   color: white;
   background-color: gray;
 }
+.last-section{
+  text-align:center;
+  font-size:18px;
+  display:flex;
+  color:white;
+  justify-content:center;
+  height:5vh;
+}
